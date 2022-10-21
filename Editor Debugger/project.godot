@@ -1,0 +1,25 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+_global_script_classes=[{
+"base": "Control",
+"class": &"EditorDebuggerDock",
+"language": &"GDScript",
+"path": "res://addons/Editor Debugger/dock.gd"
+}]
+_global_script_class_icons={
+"EditorDebuggerDock": ""
+}
+
+[application]
+
+config/name="Editor Debugger"
+config/features=PackedStringArray("4.0", "Forward Plus")
+config/icon="res://icon.svg"
